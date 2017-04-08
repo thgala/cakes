@@ -1,0 +1,11 @@
+@mixin transition($property) {
+  transition: $property 0.25s ease-out;
+}
+
+@mixin transitionFull($full) {
+  transition: $full;
+}
+
+@mixin transitionCubicBezier($propertyTime) {
+  transition: $propertyTime cubic-bezier(0, 0, 0, 1.01);
+}

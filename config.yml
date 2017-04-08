@@ -1,0 +1,28 @@
+default: &default
+  project: "app"
+  host: "localhost"
+  protocol: "http"
+
+development:
+  <<: *default
+  env: "development"
+  port: "3300"
+  apiUrl: "http://localhost:3001/api/v1"
+
+staging:
+  <<: *default
+  env: "staging"
+  host: "staging.app.com"
+  protocol: "https"
+
+  apiUrl: "http://staging.app.com/api/v1"
+  assetOrigin: "https://app-staging.firebaseapp.com"
+
+production:
+  <<: *default
+  env: "production"
+  host: "app.com"
+  protocol: "https"
+
+  apiUrl: "http://app.com/api/v1"
+  assetOrigin: "https://app-production.firebaseapp.com"

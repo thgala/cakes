@@ -1,0 +1,16 @@
+[ignore]
+.*node_modules/fbjs.*
+.*node_modules/config-chain.*
+
+[include]
+src/
+
+[libs]
+flow-typed
+
+[options]
+module.file_ext=.scss
+module.file_ext=.js
+module.file_ext=.json
+
+module.name_mapper='^ggApp\/\(.*\)$' -> '<PROJECT_ROOT>/src/app/\1'

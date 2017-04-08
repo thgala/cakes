@@ -1,0 +1,19 @@
+@import '~ggApp/utils/mixins/screens';
+
+.container{
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+
+  &--long{
+    // max-width: 1600px;
+    max-width: 100%;
+  }
+}
+
+@media (#{$phone}) and (#{$desktopMax}) {
+  .container{
+    padding: 0 15px;
+  }
+}

@@ -1,0 +1,35 @@
+// Phone
+//
+//  @media (#{$phone}) {
+//    code-here
+//  }
+//
+$phone: "min-width: 0px";
+
+
+// Tablet
+//
+//  @media (#{$tablet}) {
+//    code-here
+//  }
+//
+$tabletMax: "max-width: 768px";
+$tablet: "min-width: 769px";
+
+
+// Desktop
+//
+//  @media (#{$desktop}) {
+//    code-here
+//  }
+$desktopMax: "max-width: 992px";
+$desktop: "min-width: 993px";
+
+
+// Large Desktop
+//
+//  @media (#{$large-desktop}) {
+//   code-here
+//  }
+$largeDesktopMax: "max-width: 1280px";
+$largeDesktop: "min-width: 1281px";

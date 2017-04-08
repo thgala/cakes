@@ -1,0 +1,11 @@
+a {
+  text-decoration: none;
+  color: #7251A2;
+
+  &:hover, &:active, &:focus{
+    outline: none;
+    color: #7251A2;
+    text-decoration: none !important;
+  }
+
+}

@@ -1,0 +1,29 @@
+/* global styles */
+@import './fonts/index';
+@import './typography';
+@import './links';
+
+*, *:after, *:before{
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+body{
+  position: relative;
+
+  h1 {
+
+  }
+
+  h2 {
+    
+  }
+
+  img {
+    width: 100%;
+  }
+}
